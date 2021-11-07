@@ -4,10 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".FindFriendsFragment">
+    tools:context=".findfriends.FindFriendsFragment">
+
+    <include
+        layout="@layout/custom_progressbar"
+        android:visibility="gone"
+        android:id="@+id/progressBar"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/FindFriends"
+        android:id="@+id/rvFindFriends"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

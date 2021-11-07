@@ -37,4 +37,8 @@
     <string name="empty_chat_list">Chat list will apear here</string>
     <string name="empty_friends_list">Friends list will appear here</string>
     <string name="empty_requests_list">Friends requests will appear here</string>
+    <string name="press_back_to_exit">Press back again to exit</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="failed_to_fetch_friends">Failed to fetch friends : %1$s</string>
 </resources>
